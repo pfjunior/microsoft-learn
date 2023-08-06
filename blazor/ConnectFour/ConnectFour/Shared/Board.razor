@@ -1,0 +1,32 @@
+﻿@inject ConnectFour.Shared.GameState State
+
+<HeadContent>
+	<style>
+		:root {
+			--board-bg: yellow; 	/** the color of the board **/
+			--player1: blue;		/** Player 1's piece color **/
+			--player2: red;			/** Player 2's piece color **/
+		}
+	</style>
+</HeadContent>
+
+<div>
+    <div class="board">
+        @for (var i = 0; i < 42; i++)
+        {
+            <span class="container">
+				<span class="@Pieces[i]"></span>
+            </span>
+        }
+    </div>
+</div>
+
+@code {
+	private string[] Pieces = new string[42];
+
+
+	protected override void OnInitialized()
+	{
+		State.ResetBoard();
+	}
+}
