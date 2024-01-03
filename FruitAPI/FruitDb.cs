@@ -1,7 +1,4 @@
-using FruitAPI.Models;
 using Microsoft.EntityFrameworkCore;
-
-namespace FruitAPI.Data;
 
 class FruitDb : DbContext
 {
