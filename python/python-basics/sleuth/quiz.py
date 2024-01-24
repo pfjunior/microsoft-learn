@@ -4,6 +4,9 @@ activity = input( "How would you like to spend your evening?\n(A) Reading a book
 # print out which activity they chose
 print( f"You chose {activity}.")
 
-# if they chose reading a book
 if activity == "A":
     print( "Nice choice!" )
+elif activity == "B":
+    print( "Sounds fun!" )
+else:
+    print("You must type A or B, let's just say you like to read.")
