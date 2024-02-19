@@ -1,3 +1,15 @@
+# Truth table for AND
+# true AND true = true
+# true AND false = false
+# false AND true = false
+# false AND false = false
+
+# Truth table for OR
+# true OR true = true
+# true OR false = true
+# false OR true = true
+# false OR false = false
+
 # Example using if, elif and else
 object_size = 10
 
