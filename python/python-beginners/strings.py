@@ -1,3 +1,12 @@
+# .title(): Return the string in initial caps
+# .split(): Split a string
+# in: Search a word, character or a group of character in a string
+# .count(): Return the total number of occurrences of a certain word in a string
+# .lower(): Convert a string to lowecase letter
+# .upper(): Convert a string to upercase letter
+# .join(): Put together characters
+
+
 text = """Interesting facts about the Moon. The Moon is Earth's only satellite. There are several interesting facts about the Moon and how it affects life here on Earth. 
 On average, the Moon moves 4cm away from the Earth every year. This yearly drift is not significant enough to cause immediate effects on Earth. The highest daylight temperature of the Moon is 127 C."""
 
